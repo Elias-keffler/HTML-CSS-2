@@ -1,0 +1,8 @@
+@charset "utf-8";
+ 
+body{
+    background-color: hwb(160 50% 0%);
+    color: black;
+    font-size: 6ch;
+    font-family: Arial, Helvetica, sans-serif;
+}
