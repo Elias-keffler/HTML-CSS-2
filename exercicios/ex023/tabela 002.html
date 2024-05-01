@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tableas Grandes</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+            background-color: darkseagreen;
+        }
+        table{
+            width: 500px;
+            border-collapse: collapse;
+                    
+           
+        }
+        .popu{
+              text-align: right;
+        } 
+         td, th, tfoot{
+            border: 1px solid black;
+            padding: 8px;
+        }
+       
+        thead, th{
+            background-color: blueviolet;
+            color: aliceblue;
+        }
+
+        h1{
+            text-align: center;
+        } 
+
+        tr{
+            text-align: center
+        }
+
+        tbody >tr:nth-child(odd) {
+            background-color: white;
+        }
+      
+        tbody >tr:nth-child(even) {
+            background-color: lightgray;
+        }
+      
+        caption{
+            font-size: large;
+            font-weight: bold;
+            padding: 10px;
+            background-color: aquamarine;
+        }
+    
+    </style>
+</head>
+<body>
+   
+    <h1>Populaçao Brasileira</h1>
+    <table>
+        <caption>Lista de unidades federativas do Brasil por população</caption>
+        <thead>
+           <tr>
+            <th scope="col">Unidade Federativa</th>
+            <th scope="col">populaçao</th>
+            <th scope="col">% da populaçao total</th>
+           </tr> 
+        </thead>
+        <tbody>
+            <tr>
+                <td> São Paulo </td>
+                <td class="popu" > 44.411.238</td>
+                <td>21,88%</td>
+            </tr>
+            <tr>
+                <td> Minas Gerais </td>
+                <td class="popu" > 20.538.718</td>
+                <td> 10,11% </td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="popu" >16.054.524</td>
+                <td>7,91%</td>
+            </tr>
+            <tr>
+                <td>Bahia</td>
+                <td class="popu" >14.141.626</td>
+                <td>6,96%</td>
+            </tr>
+            <tr>
+                <td>Paraná</td>
+                <td class="popu" >11.444.380</td>
+                <td>5,64%</td>
+            </tr>
+            <tr>
+                <td>Rio Grande do Sul</td>
+                <td class="popu" >10.882.965</td>
+                <td>5,36%</td>
+            </tr>
+            <tr>
+                <td>Pernambuco</td>
+                <td class="popu" >9.058.931</td>
+                <td>4,46%</td>
+            </tr>
+            <tr>
+                <td>Ceará</td>
+                <td class="popu" >8.794.957</td>
+                <td>4,33%</td>
+            </tr>
+            <tr>
+                <td>Pará Pará</td>
+                <td class="popu" >8.121.025</td>
+                <td>4,1%</td>   
+            </tr>
+            <tr>
+                <td>Santa Catarina</td>
+                <td class="popu" >7.610.361</td>
+                <td>3,75%</td>   
+            </tr>
+            <tr>
+                <td>Goiás</td>
+                <td class="popu" >7.056.495</td>
+                <td>3,47%</td>   
+            </tr>
+            <tr>
+                <td>Maranhão</td>
+                <td class="popu" >6.775.805</td>
+                <td>3,34%</td>   
+            </tr>
+            <tr>
+                <td> Paraíba</td>
+                <td class="popu" >3.941.613</td>
+                <td>1,94%</td>   
+            </tr>
+            <tr>
+                <td>Espírito Santo</td>
+                <td class="popu" >3.833.712</td>
+                <td>1,89%</td>   
+            </tr>
+            <tr>
+                <td>Mato Grosso</td>
+                <td class="popu" >3.658.649</td>
+                <td>1,8%</td>   
+            </tr>
+            <tr>
+                <td>Rio Grande do Norte</td>
+                <td class="popu" >3.302.729</td>
+                <td>1,63%</td>   
+            </tr>
+            <tr>
+                <td>Piauí</td>
+                <td class="popu" >3.271.199</td>
+                <td>1,61%</td>   
+            </tr>
+            <tr>
+                <td>Alagoas</td>
+                <td class="popu" >3.127.683</td>
+                <td>1,54%</td>   
+            </tr>
+            <tr>
+                <td>Distrito Federal</td>
+                <td class="popu" >2.817.381</td>
+                <td>1,39%</td>   
+            </tr>
+            <tr>
+                <td>Mato Grosso do Sul</td>
+                <td class="popu" >2.757.013</td>
+                <td>1,36%</td>   
+            </tr>
+            <tr>
+                <td>Sergipe</td>
+                <td class="popu" >2.209.558</td>
+                <td>1,09%</td>   
+            </tr>
+            <tr>
+                <td>Rondônia</td>
+                <td class="popu" >1.581.196</td>
+                <td>0,78%</td>   
+            </tr>
+            <tr>
+                <td>Tocantins</td>
+                <td class="popu" >1.511.460</td>
+                <td>0,74%</td>   
+            </tr>
+            <tr>
+                <td>Acre</td>
+                <td class="popu" >830.018</td>
+                <td>0,41%</td>   
+            </tr>
+            <tr>
+                <td>Amapá</td>
+                <td class="popu" >733.759</td>
+                <td>0,36%</td>   
+            </tr>
+            <tr>
+                <td>Roraima</td>
+                <td class="popu" >636.707</td>
+                <td>0,31%</td>   
+            </tr>
+        </tbody>
+        <tfoot>
+           <th scope="row">TOTAL DE ABITANTES</th>
+           <td class="popu" >203.062.512</td>
+           <td>100%</td>
+        </tfoot>
+    </table>
+    
+</body>
+</html>
